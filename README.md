@@ -1,1 +1,57 @@
 ## Homework_Password-Generator
+
+##  Table of Contents:
+    1. Table of Contents
+    2. Description
+    3. Installation
+    4. Usage
+    5. Contributing
+    6. Credits
+    7. License
+
+## Description:
+   AS AN employee with access to sensitive data
+I WANT to randomly generate a password that meets certain criteria
+SO THAT I can create a strong password that provides greater security
+  
+  Above was the story that was given to me. I used Javascript to create a Password Generator. I created an object that had all the possible characters the user might want. I allowed the user to chose which type of characters they wanted and what they didn't want.
+  I also made sure that the user got to chose between 8 and 128 characters and not more or less. I also made sure if the user tried to type an none number that they couldn't.
+  Finally I made it random and into a single array that allowed the creation of the new secure password. 
+  After all the prompts are answered, the passwordwill be generated and written inside the text field of the webpage.
+
+## Installation:
+    No installation needed
+
+## Usage:
+    This can be very useful. I know trhat if I ever need a secure pasword, I will be using this program.    
+
+## Contributing:
+    GIVEN I need a new, secure password
+WHEN I click the button to generate a password
+THEN I am presented with a series of prompts for password criteria
+
+WHEN prompted for password criteria
+THEN I select which criteria to include in the password
+
+WHEN prompted for the length of the password
+THEN I choose a length of at least 8 characters and no more than 128 characters
+
+WHEN prompted for character types to include in the password
+THEN I choose lowercase, uppercase, numeric, and/or special characters
+
+WHEN I answer each prompt
+THEN my input should be validated and at least one character type should be selected
+
+WHEN all prompts are answered
+THEN a password is generated that matches the selected criteria
+
+WHEN the password is generated
+THEN the password is either displayed in an alert or written to the page
+
+    These instructions were given from the Vanderbilt Coding Bootcamp from the University and Trilogy.
+
+## Credits:
+    The credits go to the Vanderbilt Coding Bootcamp and Trilogy. They gave me the files and the instructions to complete this task.
+
+## License:
+    --- No License from my work 
